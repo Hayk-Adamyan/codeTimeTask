@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.header{
+    width: 1440px;
+    height: 650px;
+    background-image: url(./image/Rectangle\ 1\ \(1\).png);
+    
+}
+.headerCard{
+    width: 741px;
+    height: 537px;
+    background-color:white;
+    position: absolute;
+    left: 63px;
+    top: 384px;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 96px 156px 75px 64px
+
+}
+.headerCard h1{
+    font-size: 39px;
+    color: #000000;
+    margin-right: 5px;
+}
+.headerCard p{
+    font-size: 20px;
+    color: #000000;
+    margin-right: 111px;
+    margin-top: 29px;
+    opacity: 0.6;
+}
+.headerCard button{
+    background-color:#F78065;
+    margin-top: 29px;
+    padding: 21px 77px 21px 69px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    
+}
+ .buttonDiv{
+    display: flex;
+    align-items: center;
+ }
+ .buttonDiv span{
+     margin-left: 8px;
+ }
+ .headerCardContent h1 span{
+     color: #F78065;
+ }
+.threeCards{
+    margin-top: 400px;
+    display: flex;
+    padding: 0 81px 0 119px;
+   
+  
+}
+.threeCards h2{
+    margin-top: 84px;
+  
+}
+.threeCards p{
+    font-size: 16px;
+    opacity: 0.6;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.threeCards span{
+   
+    color: #F78065;
+}
+
+.card{
+    width: 386px;
+    margin-left: 41px;
+}
+.cardImg{
+    width: 248px;
+    height: 180px;
+}
